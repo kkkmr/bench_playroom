@@ -50,7 +50,6 @@
 ```
 # Standard widths
 
-vs - 319
 xxs - 320 - 367
 xs - 368 - 599
 small - 600 - 767
