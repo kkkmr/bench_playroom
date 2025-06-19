@@ -5,7 +5,7 @@ Welcome to **bench_playroom** — a lab for UI experiments, component patterns, 
 Here, nothing is final and everything is on trial.
 
 ## 💡 Purpose  
-This is a creative frontend sandbox where I test ideas, refine design patterns, and prototype scalable, accessible components—drawing from both software engineering.
+This is a creative frontend sandbox where I test ideas, refine design patterns, and prototype scalable, accessible components.
 
 ## 🚀 What You'll Find  
 - Experimental React components  
