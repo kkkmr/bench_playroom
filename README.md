@@ -1,5 +1,5 @@
 # bench_playroom 🧪⚖️
-where ideas stretch, break and rebuild yet bulletproof
+> where ideas stretch, squeeze, break and rebuild yet remain bulletproof
 
 Welcome to **bench_playroom** — a lab for UI experiments, component patterns, CSS puzzles, and animation adventures.  
 Here, nothing is final and everything is on trial.
