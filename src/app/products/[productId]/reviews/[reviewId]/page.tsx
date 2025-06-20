@@ -1,4 +1,4 @@
-import ReviewNotFound from "./not-found";
+// import ReviewNotFound from "./not-found";
 import { notFound } from "next/navigation";
 
 export default async function ReviewDetails({params,
