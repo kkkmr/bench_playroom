@@ -1,5 +1,5 @@
-import { Roboto, Open_Sans, Montserrat, Inter,Dancing_Script,Noto_Serif_Telugu, Orbitron } from "next/font/google";
-import type { NextFont, NextFontWithVariable } from "next/dist/compiled/@next/font";
+import { Roboto, Open_Sans, Montserrat, Inter,Dancing_Script,Noto_Serif_Telugu } from "next/font/google";
+import type { NextFontWithVariable } from "next/dist/compiled/@next/font";
 import localFont from "next/font/local";
 
 const roboto=Roboto({variable:"--font-roboto",subsets:["latin"]});
