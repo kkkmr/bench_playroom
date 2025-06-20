@@ -1,4 +1,22 @@
-import Image from "next/image"
+// import Image from "next/image"
+import Header from "@/components/Header/Header"
+import { Geist,Noto_Serif_Telugu } from "next/font/google";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+const telugu3 = Noto_Serif_Telugu({
+  variable: "--font-telugu3",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: 'Bench Playroom',
@@ -12,11 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-          <header style={{ backgroundColor: 'lightblue', padding: '1rem' }}>
-            <Image src="/fluid_assets/logo/bp_logo_med_bg_none.svg" alt="Logo" width={100} height={100}/>
-            <p>Header</p>
-          </header>
+      <body
+      className={`${geistSans.className} ${telugu3.className}`}>
+          <Header/>
           {children}
           <footer style={{ backgroundColor: 'lightgray', padding: '1rem' }}>
             <p>Footer</p>

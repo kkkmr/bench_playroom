@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    // output: isExport ? 'export' : undefined,
+    // basePath: isExport ? '/bench_playroom' : '',
+    // assetPrefix: isExport ? '/bench_playroom' : '',
+    // trailingSlash: isExport,
 };
 
 export default nextConfig;

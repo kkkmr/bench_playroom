@@ -6,8 +6,7 @@ bench_playroom/
 ├── viewports.md
 ├── gitCommands.md
 ├── package.json  
-├── fluid_assets/  (Assets which are responsive or of variable quality in nature)    
-│   ├── vs/  
+├── fluid_assets/  (Assets which are responsive or of variable quality in nature) 
 │   ├── xxs/  
 │   ├── xs/  
 │   ├── s/  
